@@ -35,3 +35,11 @@
 
     kafka-console-consumer --topic my-topic --bootstrap-server localhost:9092 --from-beginning
 
+🚩 Stop kafka server
+
+    kafka-server-stop
+  
+🚩 Stop Zookeeper server
+
+    zookeeper-server-stop
+
