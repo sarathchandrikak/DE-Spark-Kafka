@@ -15,9 +15,13 @@
 
     zookeeper-server-start /opt/homebrew/etc/kafka/zookeeper.properties
 
+    brew services start zookeeper
+
 🚩 In new terminal start kafka server
     
     kafka-server-start /opt/homebrew/etc/kafka/server.properties
+
+    brew services start kafka
 
 🚩 Create a Kafka topic
 
@@ -38,8 +42,11 @@
 🚩 Stop kafka server
 
     kafka-server-stop
-  
+
+    brew services stop kafka
+
 🚩 Stop Zookeeper server
 
     zookeeper-server-stop
 
+    brew services stop zookeeper
