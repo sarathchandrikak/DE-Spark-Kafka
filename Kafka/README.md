@@ -31,6 +31,10 @@
 
     kafka-topics --list --bootstrap-server localhost:9092
 
+🚩 Verify the contents of topic created
+
+    bin/kafka-topics.sh --bootstrap-server localhost:9092 --topic known-infections --describe
+
 🚩 Send Messages as Producer
 
     kafka-console-producer --topic my-topic --bootstrap-server localhost:9092
@@ -49,4 +53,4 @@
 
     zookeeper-server-stop
 
-    brew services stop zookeeper
+    brew services stop zookeeper    
