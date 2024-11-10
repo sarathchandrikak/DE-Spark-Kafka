@@ -1,2 +1,2 @@
-# GCP-DE
-GCP DE concepts and projects
+# DE
+DE concepts and projects
