@@ -45,5 +45,8 @@ Connectors available for Bigtable and Kafka
   * Processing time trigger - Fired based on real world clock time
   * Data driven trigger - Fired when a certain number of data records are processed
 
+Use combination of Windows, watermarks and triggers to organize data into time windows, determine when data was submitted or processed in dataflow, allow straggles to catch up, and decide when to emit final results
+
+
 
 
