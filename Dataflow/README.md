@@ -3,8 +3,8 @@
 Google Cloud Dataflow is a fully managed, serverless, fast, cost effective data processing service that allows developers to build and execute data pipelines for both batch and stream processing. 
 It removes operational overhead by automating the infrastructre provisioning and auto scaling as data grows. 
 
- -> Read data from source
- -> Transform the data
+ -> Read data from source\
+ -> Transform the data\
  -> Write the data back to the sink
 
 It provides portability with the processing pipeline created using open source apache beam library and dataflow job that runs on virtual machines. 
